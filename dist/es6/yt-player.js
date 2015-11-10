@@ -29,7 +29,7 @@ export class YTPlayerCustomAttribute {
     if (typeof(YT) === 'undefined' || typeof(YT.Player) === 'undefined') {
       window.onYouTubeIframeAPIReady = this.loadPlayer.bind(this);
       let payload = {publisher: this, data: 'https://www.youtube.com/iframe_api'};
-      this.eventAggregator.publish('ytplayer:service:getScript', payload);
+      this.eventAggregator.publish('ytplayer:init:getScript', payload);
     } else {
       this.loadPlayer();
     }

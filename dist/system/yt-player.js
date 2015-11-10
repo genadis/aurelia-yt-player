@@ -44,7 +44,7 @@ System.register(['aurelia-framework', 'aurelia-event-aggregator'], function (_ex
             if (typeof YT === 'undefined' || typeof YT.Player === 'undefined') {
               window.onYouTubeIframeAPIReady = this.loadPlayer.bind(this);
               var payload = { publisher: this, data: 'https://www.youtube.com/iframe_api' };
-              this.eventAggregator.publish('ytplayer:service:getScript', payload);
+              this.eventAggregator.publish('ytplayer:init:getScript', payload);
             } else {
               this.loadPlayer();
             }
