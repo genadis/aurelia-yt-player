@@ -7,6 +7,6 @@ define(['exports'], function (exports) {
   exports.configure = configure;
 
   function configure(config) {
-    config.globalResources('./hello-world');
+    config.globalResources('./yt-player');
   }
 });

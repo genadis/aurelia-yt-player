@@ -1,22 +1,24 @@
 {
-  "name": "aurelia-skeleton-plugin",
-  "version": "0.3.0",
-  "description": "A starter kit for building an Aurelia plugin.",
+  "name": "aurelia-yt-player",
+  "version": "0.1.0",
+  "description": "Youtube player Aurelia plugin",
   "keywords": [
     "aurelia",
     "plugin",
-    "skeleton"
+    "Youtube",
+    "Video",
+    "Player"
   ],
-  "homepage": "http://aurelia.io",
+  "homepage": "https://github.com/genadis/aurelia-yt-player",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-plugin/issues"
+    "url": "https://github.com/genadis/aurelia-yt-player/issues"
   },
   "license": "CC0-1.0",
-  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "author": "Genadi Sokolov (https://github.com/genadis)",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-plugin"
+    "url": "https://github.com/genadis/aurelia-yt-player"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.3",
@@ -47,6 +49,9 @@
     "directories": {
       "lib": "dist/amd"
     },
-    "dependencies": {}
+    "dependencies": {
+      "aurelia-framework": "github:aurelia/framework@^0.18.0",
+      "aurelia-event-aggregator": "github:aurelia/event-aggregator@^0.10.0"
+    }
   }
 }

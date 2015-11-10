@@ -4,7 +4,7 @@ System.register([], function (_export) {
   _export('configure', configure);
 
   function configure(config) {
-    config.globalResources('./hello-world');
+    config.globalResources('./yt-player');
   }
 
   return {
