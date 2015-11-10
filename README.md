@@ -119,6 +119,21 @@ interface PlayerAPI {
 
 ```
 
+## TODO
+
+Add configuration options to plugin. Current defaults:
+```
+  quality = 'hd720';
+  height = '100%';
+  width = '100%';
+  params = {
+    enablejsapi: 1,
+    //origin: ''   specify in production
+    autoplay: 0,
+    showinfo: 0
+  };
+```
+
 ## Based on aurelia-skeleton-plugin
 
 [![ZenHub](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)](https://zenhub.io)
