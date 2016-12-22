@@ -1,3 +1,6 @@
+# ! Not maintained
+
+
 # Youtube Player Aurelia Plugin
  
  Plugin for integrating Youtube iFrame embeds.
